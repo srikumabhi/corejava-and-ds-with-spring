@@ -1,0 +1,17 @@
+
+             ##### What is Java JDK, JRE and JVM #####
+* JRE = JVM + libraries to run Java application.
+* JDK = JRE + tools to develop Java Application.
+
+JRE==> JREs are platform dependent
+
+JVM ==>
+* Most popular implementation of JVM is Hotspot which is owned and provided 
+by Oracle Corporation.
+
+JVM Class Loader ==>
+* The class loader is a subsystem used for loading class files. 
+It performs three major functions i.e. class loading, linking, and initialization.
+
+* To load classes, JVM has 3 kind of class loaders, 
+Bootstrap, extension and system/application class loader.

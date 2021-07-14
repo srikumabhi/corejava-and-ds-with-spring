@@ -1,0 +1,123 @@
+                   Short description and some important points only	
+
+                        ##### Data Types in Java #####   
+* Java is a statically-typed programming language. It means, all variables must be 
+declared before its use. That is why we need to declare variable's type and name.               
+                              
+Data Type	Default Value	 Default size
+boolean	      false	          1 bit
+char	     '\u0000'	      2 byte
+byte	       0	          1 byte
+short	       0	          2 byte
+int	           0	          4 byte
+long	      0L	          8 byte
+float	     0.0f	          4 byte
+double	     0.0d	          8 byte
+
+
+
+                           ##### Instance variable in Java #####
+A variable which is created inside the class but outside the method is known as an instance variable. 
+Instance variable doesn't get memory at compile time. It gets memory at runtime 
+when an object or instance is created. That is why it is known as an instance variable.
+
+
+             ##### What is Java JDK, JRE and JVM #####
+* JRE = JVM + libraries to run Java application.
+* JDK = JRE + tools to develop Java Application.
+
+JRE==> JREs are platform dependent
+
+JVM ==>
+* Most popular implementation of JVM is Hotspot which is owned and provided 
+by Oracle Corporation.
+
+JVM Class Loader ==>
+* The class loader is a subsystem used for loading class files. 
+It performs three major functions i.e. class loading, linking, and initialization.
+
+* To load classes, JVM has 3 kind of class loaders, 
+Bootstrap, extension and system/application class loader.
+
+
+
+                  ##### Objects and Classes #####
+Ways to initialize object
+There are 3 ways to initialize object in Java.
+* By reference variable
+* By method
+* By constructor
+
+What are the different ways to create an object in Java?
+There are many ways to create an object in java. They are:
+* By new keyword
+* By newInstance() method
+* By clone() method
+* By deserialization
+* By factory method etc.
+
+So declare, initialize, and instantiate come together like this:-
+MyClass myClassyReference = new MyClass();
+In the above, it is wrong to say "... creating an instance of an object..."
+* A reference variable is declared - MyClass myClassyReference
+* An object is instantiated (...from/of a given class, implied) - new MyClass()
+* The object is assigned to the variable =         
+
+Ingradiants of Java classes or a class in Java can contain:-
+* Fields
+* Methods
+* Constructors
+* Blocks
+* Nested class and interface
+
+new keyword in Java:-
+* The new keyword is used to allocate memory at runtime. All objects get memory in Heap 
+memory area.
+
+
+
+                             ##### Constructors #####
+* We can use access modifiers while declaring a constructor. It controls the object 
+creation. In other words, we can have private, protected, public or default constructor 
+in Java.
+
+Why constructors can not be inherited in java? :-
+* Constructors are not members, so they are not inherited by subclasses, but the constructor
+of the superclass can be invoked from the subclass. In simple words, a constructor cannot 
+be inherited, since in subclasses it has a different name (the name of the subclass).
+ 
+* Does constructor return any value?
+Yes, it is the current class instance (You cannot use return type yet it returns a value).
+
+* Can constructor perform other tasks instead of initialization?
+Yes, like object creation, starting a thread, calling a method, etc. You can perform any operation in the constructor as you perform in the method.
+
+* Is there Constructor class in Java?
+Yes.
+
+* What is the purpose of Constructor class?
+Java provides a Constructor class which can be used to get the internal information of a 
+constructor in the class. It is found in the java.lang.reflect package.
+
+The general syntax for a constructor declaration is:-
+<<Modifiers>> <<Constructor Name>>(<<parameters list>>) throws <<Exceptions list>> {
+        // Body of constructor goes here
+}
+
+* A Constructor must have no explicit return type.
+
+* A Java constructor cannot be abstract, static, final, and synchronized.
+
+Can we declare a constructor final?:-
+* No, because constructor is never inherited.
+
+Whereas the host operating system is software installed on a computer to 
+interact with the hardware, the guest operating system is software installed 
+onto and running on the virtual machine. ... While the guest OS shares 
+resources with the host OS, the two operate
+                  
+                          
+                  
+
+
+	 

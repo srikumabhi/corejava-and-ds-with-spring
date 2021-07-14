@@ -1,0 +1,30 @@
+As term suggest, a variable is whose value can vary during the runtime. 
+In Java, a variable is a named reference to a memory area where value of the variable is 
+stored.
+
+
+
+                        Instance variables vs Class Variables
+* Instance variables (non-static fields) are unique to each instance of a class.
+
+* Class variables (static fields) are fields declared with the static modifier; there is exactly one 
+copy of a class variable, regardless of how many times the class has been instantiated.
+
+* To access instance variable, you must create a new instance of class. Class variables are 
+accessible through class reference, and do not require to create object instance.
+
+
+
+                          Java Variable Naming Conventions
+There are a few rules and conventions related to how to define variable names.
+
+Java variable names are case sensitive. The variable name employee is not the same as Employee or EMPLOYEE.
+Java variable names must start with a letter, or the $ or _ character.
+After the first character in a Java variable name, the name can also contain numbers, $ or _ characters.
+Variable names cannot be reserved keywords in Java. For instance, the words break
+or continue are reserved words in Java. Therefore you cannot name your variables to them.
+Variable names should written in lowercase. For instance, variable or apple.
+If variable names consist of multiple words, then follow camelcase notation. For instance, deptName or firstName.
+Static final fields (constants) should be named in all UPPERCASE, typically using an _ to separate the words in the name. For example LOGGER or INTEREST_RATE.
+
+

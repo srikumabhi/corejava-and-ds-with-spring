@@ -1,0 +1,11 @@
+
+                       ##### Instance initialization blocks #####
+
+* Instance initialization blocks become part of the constructor and execute after the super() 
+statement at object creation.
+
+Can we inherit instance blocks from super class to child class in Java?:-
+* Instance initialization blocks become part of the constructor and execute after the super() statement 
+at object creation. As constructors cannot be inherited and can be accessed only through 
+super() which is already the first statement in any constructor it dose not make sense to make 
+it participate in inheritance(the creators of java were smart enough :) )

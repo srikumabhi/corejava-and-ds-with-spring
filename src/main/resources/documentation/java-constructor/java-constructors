@@ -1,0 +1,77 @@
+                  
+                   ##### What is Constructors ? #####
+In Java, a constructor is a block of codes similar to the method. It is called when an 
+instance of the class is created. At the time of calling constructor, memory for the 
+object is allocated in the memory.
+It is a special type of method which is used to initialize the object.
+Every time an object is created using the new() keyword, at least one constructor is 
+called. It calls a default constructor if there is no constructor available in the class.
+In such case, Java compiler provides a default constructor by default. 
+
+
+
+ #####Rules for creating Java constructor #####
+There are some rules defined for the constructor.
+* Constructor name must be the same as its class name
+* A Constructor must have no explicit return type
+* A Java constructor cannot be abstract, static, final, and synchronized    
+
+
+
+ ##### Types of Java constructors #####
+There are two types of constructors in Java==>
+* Default constructor (no-arg constructor)
+* Parameterized constructor
+
+
+
+                        ##### Some important points #####
+* We can use access modifiers while declaring a constructor. It controls the object 
+creation. In other words, we can have private, protected, public or default constructor 
+in Java.
+
+* It is called constructor because it constructs the values at the time of object creation. 
+It is not necessary to write a constructor for a class. It is because java compiler 
+creates a default constructor if your class doesn't have any.
+
+Why constructors can not be inherited in java? :-
+* Constructors are not members, so they are not inherited by subclasses, but the constructor
+of the superclass can be invoked from the subclass. In simple words, a constructor cannot 
+be inherited, since in subclasses it has a different name (the name of the subclass).
+ 
+* A constructor may only be called with new . It cannot be called as a method. 
+The constructor name is identical to the class name.
+
+* Does constructor return any value?
+Yes, it is the current class instance (You cannot use return type yet it returns a value).
+
+* Can constructor perform other tasks instead of initialization?
+Yes, like object creation, starting a thread, calling a method, etc. You can perform any operation in the constructor as you perform in the method.
+
+* Is there Constructor class in Java?
+Yes.
+
+* What is the purpose of Constructor class?
+Java provides a Constructor class which can be used to get the internal information of a 
+constructor in the class. It is found in the java.lang.reflect package.
+
+The general syntax for a constructor declaration is:-
+<<Modifiers>> <<Constructor Name>>(<<parameters list>>) throws <<Exceptions list>> {
+        // Body of constructor goes here
+}
+
+* A Constructor must have no explicit return type
+* A Java constructor cannot be abstract, static, final, and synchronized.
+
+* The purpose of constructor is to initialize the object of a class while 
+the purpose of a method is to perform a task by executing java code. 
+Constructors cannot be abstract, final, static and synchronised while 
+methods can be.
+
+Can we declare a constructor final?:-
+* No, because constructor is never inherited.
+
+
+
+                  
+                          

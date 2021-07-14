@@ -1,0 +1,5 @@
+
+blocking queue
+A blocking queue is a queue that blocks when you try to dequeue from it and the queue is empty, or if you try to enqueue items to it and the queue is already full. 
+A thread trying to dequeue from an empty queue is blocked until some other thread inserts an item into the queue.
+

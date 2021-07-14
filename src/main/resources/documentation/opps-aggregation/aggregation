@@ -1,0 +1,19 @@
+
+Association:-
+Association represents the relationship between the objects. Here, one object can be
+associated with one object or many objects. There can be four types of association 
+between the objects:
+* One to One
+* One to Many
+* Many to One, and
+* Many to Many
+Let's understand the relationship with real-time examples. For example, One country 
+can have one prime minister (one to one), and a prime minister can have many 
+ministers (one to many). Also, many MP's can have one prime minister (many to one), 
+and many ministers can have many departments (many to many).
+
+Aggregation:-
+* Aggregation is a way to achieve Association. Aggregation represents the relationship 
+where one object contains other objects as a part of its state. It represents the 
+weak relationship between objects. It is also termed as a has-a relationship in Java. 
+Like, inheritance represents the is-a relationship. It is another way to reuse objects.

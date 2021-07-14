@@ -1,0 +1,29 @@
+ 
+  ################# Execution of a Java Program #####################
+  Before jumping into the internals of Java, let’s understand how a Java source file 
+is executed.
+
+* We write the Java source code in JavaFirstProgram.
+Java file using an editor or IDE (integrated development environment) 
+e.g. Eclipse or IntelliJ Idea.
+* Program has to be compiled into bytecode. Java compiler (javac) compiles 
+the source-code to JavaFirstProgram.class file.
+* This class file can be executed in any platform/OS by JVM (Java virtual machine).
+* JVM translates bytecode into native machine code which machines can execute.
+  
+  
+  
+  ################ Internal Details of Java Program ##################
+  
+  what happens while compiling and running the java program?
+  
+  (1) What happens at compile time? => 
+  Kindly refer the WhatHappensAtCompileTime-JavaCodeCompile.png file 
+  in /resources/documentation folder.
+  
+  (2) What happens at runtime? =>
+  Kindly refer the WhatHappensAtRuntime-JavaRuntimeProcessing.png file 
+  in /resources/documentation folder.
+  
+
+ 
